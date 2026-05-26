@@ -63,6 +63,26 @@
         .linkNav:hover{
             color: #d32f2f;
         }
+        
+            .botaoPrincipal{
+                display:inline-block;
+                background-color:#d32f2f;
+                color: #ffffffff;
+                border-radius:4px;
+                padding:0.8rem 1.5rem;
+                border-radius:4px;
+                font-weight: bold;
+                margin-top: 1;
+                transition: backgroun-color 0.3s ease;
+            }
+                
+           
+           .botaoPrincipal:hover {
+                background-color: #b71b1b;
+                color: #ffffffff;
+           }
+
+
             
         
 
@@ -97,18 +117,19 @@
 
  <!--Contéudo Principal-->
  <main>
-    <section id="hero">
-        <h2>O som da sua vida começa aqui</h2>
-        <p>
+    <section id="hero" class="secaoHero" style="background-color: #eceff1; text-align: center; padding: 5rem 2rem; border-bottom: 4px solid #d32f2f ;">
+        <h2 style="font-size: 3rem; color: #1a1a1a;">O som da sua vida começa aqui</h2>
+        <p style="font-size: 1.2rem; max-width: 600xp; margin: 0 auto 2rem auto;">
             Encontre as melhores marcas de violinos,trompetes ou violões.
         </p>
         <img 
             src="banda de rock.jpg" 
             alt="Banda de rock em um show usando os instrumentos musicais da Compasso Musical"
             width="600"
+            style="border-radius: 12px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);"
         >
         <br><br>
-        <a href="">Ver nossas ofertas</a>
+        <a href="#" class="botaoPrincipal">Ver nossas ofertas</a>
     </section>
     <!--Seção sobre-->
     <section id="sobre">
